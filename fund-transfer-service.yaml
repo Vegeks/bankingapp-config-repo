@@ -6,14 +6,7 @@ spring:
 
 
 
-  config:
-    import: "optional:configserver:"
 
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config-service
   kafka:
     bootstrap-servers: localhost:9092
     producer:
